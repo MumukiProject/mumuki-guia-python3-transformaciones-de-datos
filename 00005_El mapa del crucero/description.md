@@ -13,4 +13,4 @@ cines["sector_type"] = cines["sector"].map({
 
 En caso que no hayamos contemplado algún valor de entrada tendremos `nan` en la columna. Por ejemplo, si omitíamos `"Público nacional"` en nuestro `map`, el `sector_type` quedaría como `nan` en las filas correspondientes a ese sector. 
 
-> ¡Probémoslo! Escribí una expresión que te permita crear la columna `region` en nuestro `DataFrame`  con el valor `"Regional"` para aquellos cruceros de Argentina, Brasil y Uruguay. No nos vamos a preocupar por el resto de países por ahora. 
+> ¡Probémoslo! Escribí una expresión que te permita crear la columna `region` en nuestro `DataFrame`  con el valor `"Nacional"` para los cruceros de Uruguay 🇺🇾 y  `"Regional"` para aquellos de Argentina 🇦🇷 y Brasil 🇧🇷. No nos vamos a preocupar por el resto de países por ahora. 
