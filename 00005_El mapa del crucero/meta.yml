@@ -2,10 +2,10 @@
 locale: es
 tags: []
 layout: input_bottom
-editor: external
+editor: code
 type: problem
 extra_visible: false
 teacher_info: ''
 manual_evaluation: false
 choices: []
-name: "¿Me eliminaste?"
+name: El mapa del crucero
