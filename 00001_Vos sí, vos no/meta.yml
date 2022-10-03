@@ -35,5 +35,5 @@ choices:
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`update_year`"
-  checked: false
+  checked: true
 name: Vos sí, vos no
