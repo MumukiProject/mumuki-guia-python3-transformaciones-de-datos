@@ -1,7 +1,7 @@
 Para remover columnas contamos con `drop` que funciona de la siguiente forma:
 
 ```python
-algun_dataframe.drop(
+tabla.drop(
   columns=[
     "primera_columna_a_borrar", 
     "segunda_columna_a_borrar", 
