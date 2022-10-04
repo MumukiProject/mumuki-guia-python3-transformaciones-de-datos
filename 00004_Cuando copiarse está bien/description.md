@@ -1,8 +1,23 @@
 Ya estuvimos eliminando y renombrando columnas, ¡ahora vamos a aprender a agregar nuevas! :heavy_plus_sign:
 
-Sin embargo, antes de pasar a eso vamos a enseñarte a hacer una copia de un `DataFrame`. Si te preguntas para qué, la respuesta es que a veces nos puede interesar preservar un estado particular de un `DataFrame` y hacer modificaciones en una copia del mismo. 
+Sin embargo, antes de pasar a eso vamos a enseñarte a hacer una copia de un `DataFrame`. ¿Y por qué? Es que a veces nos interesará preservar un estado particular de un `DataFrame` y hacer modificaciones en una copia del mismo...
 
-> Para hacerlo pegá el siguiente código en tu cuaderno y luego embarquémonos al siguiente ejercicio 🚢:
+```python
+copia = tabla.copy()
+# ahora modificamos la copia
+del copia["columna"]
+```
+
+...y si luego nos arrepentimos podremos aún usar el `DataFrame` original, o incluso restaurarla a su versión anterior:
+
+```python
+# ¡la tabla original aún tiene la columna eliminada!
+pd.value_counts(tabla["columna"])
+# restauramos la versión original 
+copia = tabla.copy()
+```
+
+> Pegá el siguiente código en tu cuaderno y luego embarquémonos al siguiente ejercicio 🚢:
 >
 ```python
 import pandas as pd
