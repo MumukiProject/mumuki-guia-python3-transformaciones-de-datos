@@ -1,10 +1,10 @@
-Para remover columnas contamos con el comando `del` ✖️ …
+Para remover columnas contamos con el comando `del` ✖️ ...
 
 ```python
 del tabla["columna"]
 ```
 
-…que nos permite eliminar de a una columna por vez ☝️. Si en cambio queremos eliminar varias en un sólo paso, contamos con la operación `drop`, que funciona de la siguiente forma:
+...que nos permite eliminar de a una columna por vez ☝️. Si en cambio queremos eliminar varias en un sólo paso, contamos con la operación `drop`, que funciona de la siguiente forma:
 
 ```python
 tabla.drop(
