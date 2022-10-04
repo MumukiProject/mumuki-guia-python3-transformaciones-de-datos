@@ -1,6 +1,6 @@
 Al trabajar con lotes de datos, es frecuente que los nombres de sus columnas no nos fascinen. Por suerte tenemos la solución, ¡`rename`! 
 
-`rename` nos permite, a través de un diccionario, renombrar columnas. Por ejemplo, si tuviéramos el siguiente lote `personas` con una elección de nombres polémica...
+`rename` nos permite, a través de un diccionario, renombrar columnas. Por ejemplo, si tuviéramos el siguiente lote `personas` con una elección de nombres _polémica_...
 
 com_name|ag|add|count|
 ---|---|---|---|
