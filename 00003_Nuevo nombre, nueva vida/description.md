@@ -8,7 +8,7 @@ Ricardo Guiraldes|60|Rua das pedras 1000|Brazil|
 Billy Summers|42|5th Avenue 2332|USA|
 Anna Prado|37|San Martin 1165|Argentina|
 
-y quisiéramos obtener el `DataFrame` con sus columnas renombradas podríamos escribir:
+...y quisiéramos obtener el `DataFrame` con sus columnas renombradas podríamos escribir:
 
 ```python
 personas.rename(columns = {
@@ -18,6 +18,12 @@ personas.rename(columns = {
    "count": "country"
 })
 ```
+
+complete_name|age|address|country|
+---|---|---|---|
+Ricardo Guiraldes|60|Rua das pedras 1000|Brazil|
+Billy Summers|42|5th Avenue 2332|USA|
+Anna Prado|37|San Martin 1165|Argentina|
 
 Para que esta operación tenga efecto en el `DataFrame` original deberíamos escribir… ¡exacto, `inplace=True`!
 
