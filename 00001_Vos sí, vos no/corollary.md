@@ -1,3 +1,3 @@
-¡Excelente!
+¡Excelente! 
 
-Ahora que las detectamos, ¡vamos a eliminarlas! 
+Ahora que las detectamos :mag:, ¡vamos a quitarlas! 
