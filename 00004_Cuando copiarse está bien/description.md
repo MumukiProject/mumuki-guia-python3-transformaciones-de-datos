@@ -1,4 +1,4 @@
-Ya estuvimos eliminando columnas y renombrando otras, ¡ahora vamos a aprender a agregar nuevas!
+Ya estuvimos eliminando y renombrando columnas, ¡ahora vamos a aprender a agregar nuevas!
 
 Sin embargo, antes de pasar a eso vamos a enseñarte a hacer una copia de un `DataFrame`. Si te preguntas para qué, la respuesta es que a veces nos puede interesar preservar un estado particular de un `DataFrame` y hacer modificaciones en una copia del mismo. 
 
