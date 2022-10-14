@@ -177,5 +177,9 @@ cruceros = pd.DataFrame([{
   'shopping_expenses': 0.0,
   'other_expenses': 210.0,
   'region': True}])
-  
+cruceros["region"] = cruceros["country"].map({
+  "Uruguay": "Nacional",
+  "Argentina": "Regional",
+  "Brasil": "Regional"  
+})  
   
