@@ -1,4 +1,4 @@
 class Test(unittest.TestCase):
 
-  def test_description_example(self):
-    self.assertTrue(True)
+  def test_cruceros_tiene_columna_sector_type(self):
+    self.assertTrue("sector_type" in cruceros.columns)
