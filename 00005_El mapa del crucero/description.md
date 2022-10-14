@@ -6,7 +6,7 @@ tabla["columna"] = un_series
 
 Cuando hacemos ésto, si la columna no existe ya, será creada, y en caso contrario, será reemplazada. El verdadero problema entonces consiste en _con qué_ asignar esa columna. ¿Cómo podemos generar `Series` que nos sean útiles? 🤔
 
-Una forma consiste en usar`map` 🗺️, que nos permitirá transformar valores en base a un diccionario. Si por ejemplo quisiéramos categorizar de forma más sencilla en nuestra tabla de cines aquellos públicos, privados y comunitarios en una nueva columna `sector_type`, podríamos hacer esto:
+Una forma consiste en usar`map` 🗺️, que nos permitirá transformar valores en base a un diccionario. Si por ejemplo quisiéramos categorizar de forma más sencilla los `cines` públicos, privados y comunitarios en una nueva columna `sector_type`, podríamos hacer esto:
 
 ```python
 ム cines["sector"]
