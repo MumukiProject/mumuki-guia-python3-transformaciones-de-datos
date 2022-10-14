@@ -16,7 +16,7 @@ class Test(unittest.TestCase):
     indexado = cruceros.set_index("cruise_id")
     
     self.assertEquals(indexado.loc[5296, "region"], "Regional")
-    self.assertEquals(indexado.loc[12537, "region"], "Regional")
+    self.assertEquals(indexado.loc[2537, "region"], "Regional")
     self.assertEquals(indexado.loc[7237, "region"], "Regional")    
     
   def test_cruceros_de_uruguay_son_nacionales(self):
