@@ -1,6 +1,6 @@
 import pandas as pd
 
-pd.DataFrame([{
+cruceros = pd.DataFrame([{
   'cruise_id': 10404,
   'country_id': 19,
   'country': 'Brasil',
