@@ -1,4 +1,11 @@
 class Test(unittest.TestCase):
+  
+  def setUp(self):
+    cruceros["region"] = cruceros["country"].map({
+      "Uruguay": "Nacional",
+      "Argentina": "Regional",
+      "Brasil": "Regional"  
+    })
 
   def test_cruceros_tiene_columna_region(self):
     self.assertTrue("region" in cruceros.columns)
