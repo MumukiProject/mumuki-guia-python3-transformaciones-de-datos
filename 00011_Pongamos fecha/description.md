@@ -14,7 +14,3 @@ cruceros["date"] = pd.to_datetime(cruceros["date"])
 cruceros.info()
 ```
 
-* Antes de hacer `to_datetime`, los valores de la columna `date` eran de tipo `object`.
-* Antes de hacer `to_datetime`, los valores de la columna `date` eran de tipo `datetime64`.
-* Luego de hacer `to_datetime`, los valores de la columna `date` son de tipo `object`.
-* Luego de hacer `to_datetime`, los valores de la columna `date` son de tipo `datetime64`.
