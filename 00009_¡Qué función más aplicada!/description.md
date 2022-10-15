@@ -4,25 +4,26 @@ Por ejemplo, si tenemos el siguiente lote...
 
 name|birth_date|
 ---|---|
-Gustavo|08/03/1992|
-Graciela|05/11/1959|
-Jorge|04/06/1957|
+Dani|08/03/1991|
+Umi|05/11/1982|
+Feli|04/06/1957|
 
 ...almacenado en una variable `personas` y hacemos...
 
 ```python
-personas["age"] = personas["birth_date"].apply(get_zodiac_sign)
+personas["age"] = personas["birth_date"].apply(get_decade)
 ```
 
 ...`personas` quedaría así:
 
-name|birth_date|zodiac_sign
+name|birth_date|decade
 ---|---|---|
-Gustavo|08/03/1992|Pisces|
-Graciela|05/11/1959|Scorpius|
-Jorge|04/06/1957|Gemini|
+Dani|08/03/1991|1990|
+Umi|05/11/1982|1980|
+Feli|04/06/1957|1950|
 
 ¡Pongámoslo a prueba!
+
 
 > Utilizando `apply` y la función `get_continent` crea una columna `continent`. La función `get_continent` ya la definimos por vos y retorna un continente a partir de un país:
 >
