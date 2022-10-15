@@ -26,11 +26,6 @@ Que nos permite comparar fácilmente la cantidad de pantallas de cines privados 
 
 ¡Ahora te toca a vos!
 
-> A partir del lote que podés encontrar en https://docs.google.com/spreadsheets/d/e/2PACX-1vRSa9oM9fC-QlT7VOeGhZQtrWnlNSTsk3U8DWGTOXUWtPH6u9o5O5eZ0kTg8mFTwAn9vMdGRK7o2SPB/pub?gid=1178503202&single=true&output=csv, creá en tu cuaderno colab un DataFrame que contenga cuántas empresas de software y cuántas de hardware iniciaron sus actividades por año.
- >
+> A partir del lote de datos sobre el distrito tecnológico de uenos Aires que podés encontrar [acá](https://docs.google.com/spreadsheets/d/e/2PACX-1vRSa9oM9fC-QlT7VOeGhZQtrWnlNSTsk3U8DWGTOXUWtPH6u9o5O5eZ0kTg8mFTwAn9vMdGRK7o2SPB/pub?gid=1178503202&single=true&output=csv), creá en tu cuaderno un `DataFrame` que contenga cuántas empresas de software y cuántas de hardware iniciaron sus actividades por año.
+>
 > Luego contestá las siguientes preguntas:
-
-* ¿Cuántas filas tiene el nuevo `DataFrame`? 12
-* ¿Cuál es el año en que más empresas se abrieron de software y hardware? 2014
-* ¿En cuántos años no se abrieron empresas de hardware pero sí de software? 5
-* ¿Cuántas empresas de software se abrieron en total en esos años? 42
