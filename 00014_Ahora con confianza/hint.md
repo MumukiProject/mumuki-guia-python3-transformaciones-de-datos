@@ -1,0 +1,1 @@
+No te olvides de que contás con `rename` para renombrar columnas. 
