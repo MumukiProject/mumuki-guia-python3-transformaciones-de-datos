@@ -1,4 +1,4 @@
-¡Muy bien! Antes de pasar al siguiente ejercicio, miremos nuevamente la tabla resultante: 
+¡Muy bien! :sparkles: Antes de pasar al siguiente ejercicio, miremos nuevamente la tabla resultante: 
 
 |region|average_previous_visits|
 |---|---|
