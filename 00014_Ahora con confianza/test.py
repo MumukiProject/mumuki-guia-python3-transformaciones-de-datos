@@ -1,6 +1,5 @@
 import numpy as np
 
-
 class Test(unittest.TestCase):
   def setUp(self):
     self.indexado = visitas_previas_por_region.set_index("region")
