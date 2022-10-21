@@ -20,4 +20,4 @@ class Test(unittest.TestCase):
     self.assertTrue(self.indexado.loc["Regional", "average_previous_visits"] == 0.5)
     
   def test_contiene_el_promedio_no_regional(self):
-    self.assertTrue(self.indexado.loc["No regional", "average_previous_visits"] == 1.2)            
+    self.assertTrue(self.indexado.loc["No regional", "average_previous_visits"] == 1.25)            
