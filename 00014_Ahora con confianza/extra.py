@@ -169,5 +169,7 @@ cruceristas = pd.DataFrame([{
 cruceristas["region"] = cruceristas["country"].map({
   "Uruguay": "Nacional",
   "Argentina": "Regional",
-  "Brasil": "Regional"  
+  "Brasil": "Regional", 
+  "Otro pais de Asia": "No regional",
+  "EE.UU.": "No regional"
 })    
