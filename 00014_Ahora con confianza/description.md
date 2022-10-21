@@ -1,4 +1,4 @@
-:ocean: De nuevo en altamar, observemos nuevamente la `region` que creamos anteriormente: 
+:ocean: De nuevo en altamar, observemos la `region` que creamos anteriormente: 
 
 ```python
 ム cruceritas["region"]
