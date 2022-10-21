@@ -10,4 +10,7 @@ class Test(unittest.TestCase):
 
   def test_contiene_columnas_region_y_average_previous_visits(self):
     self.assertEquals(list(visitas_previas_por_region.columns), ['region', 'average_previous_visits'])
+
+  def test_contiene_3_filas(self):
+    self.assertEquals(len(visitas_previas_por_region), 3)
       
