@@ -12,4 +12,12 @@ class Test(unittest.TestCase):
 
   def test_contiene_3_filas(self):
     self.assertEquals(len(visitas_previas_por_region), 3)
-      
+
+  def test_contiene_el_promedio_nacional(self):
+    self.assertEquals(indexado.loc["Nacional", "average_previous_visits"], 3)
+    
+  def test_contiene_el_promedio_regional(self):
+    self.assertEquals(indexado.loc["Regional", "average_previous_visits"], 3)
+    
+  def test_contiene_el_promedio_no_regional(self):
+    self.assertEquals(indexado.loc["No regional", "average_previous_visits"], 3)            
