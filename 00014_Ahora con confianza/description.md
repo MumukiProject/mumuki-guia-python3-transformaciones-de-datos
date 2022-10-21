@@ -15,6 +15,7 @@
 12015       Regional
 ```
 
-Aunque esta columan no es _original_ del lote de datos, ésta y toda información que generemos y le adosemos podrá ser utilizada  empleando todas las herramientas que fuimos aprendiendo en estas lecciones. :grin: 
+Aunque esta columna no es _original_ del lote de datos, ésta y toda información que generemos y le adosemos podrá ser utilizada  empleando las herramientas que fuimos aprendiendo en estas lecciones. :grin: 
 
-> Ahora que contamos con la columna `region` y que entendemos qué representa verdaderamente nuestra tabla `cruceristas`, respondé: ¿cuál es el promedio de visitas previas por región? 
+> Ahora que contamos con la columna `region` y que entendemos qué representa verdaderamente nuestra tabla `cruceristas`, ¿cuál es el promedio de visitas previas por región? Respondé esta pregunta en la forma de un `DataFrame` que contenga dos columnas: `region` y `average_previous_visits_count`. 
+
