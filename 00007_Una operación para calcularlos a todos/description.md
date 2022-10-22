@@ -31,4 +31,6 @@ paises["area"] = paises["area"] * 2.59 # conversión imprecisa pero rápida de m
 
 (:pencil: _los valores del ejemplo fueron redondeados por claridad_)
 
->  :first_place: ¡Pongámoslo en práctica! Es una práctica usual que cuando estudiemos los gastos o precios, realicemos ajustes por inflación, es decir, multiplicar a todas las columnas con valores monetarios por un cierto coeficiente. Sabiendo eso, escribí una función `ajustar_gastos` que tome un `DataFrame` con la misma estructura de nuestra tabla de `cruceristas` y un coeficiente, y devuelve una **nueva** tabla con todos sus gastos actualizados apropiadamente. 
+>  :first_place: ¡Pongámoslo en práctica! Es una práctica usual que cuando estudiemos los gastos o precios, realicemos ajustes por inflación, es decir, multiplicar a todas las columnas con valores monetarios por un cierto coeficiente. 
+> 
+> Sabiendo eso, escribí una función `ajustar_gastos` que tome un `DataFrame` con la misma estructura de nuestra tabla de `cruceristas` y un coeficiente, y devuelve una **nueva** tabla con todos sus gastos actualizados apropiadamente. 
