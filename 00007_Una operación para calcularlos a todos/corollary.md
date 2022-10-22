@@ -1,3 +1,4 @@
-¡Muy bien! 👏
+¡Muy bien! 👏 Este tipo de transformaciones nos serán muy útiles para cambiar las unidades y escalas de nuestros valores. 
 
-Ya estás dominando esto de generar columnas a partir de otras.
+
+¡Pero hay más formas de modificar nuestras columnas y crear nuevas!
