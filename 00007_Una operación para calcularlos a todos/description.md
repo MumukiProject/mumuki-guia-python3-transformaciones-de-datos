@@ -31,5 +31,4 @@ paises["area"] = paises["area"] * 2.59 # conversión imprecisa pero rápida de m
 
 (:pencil: _los valores del ejemplo fueron redondeados por claridad_)
 
-
-> ¡Pongámoslo en práctica! Escribí la expresión que te permita agregar a `cruceros` la columna `shopping_discount`. El valor en cada fila está determinado por el 10% del valor de `shopping_expenses`.
+> ¡Pongámoslo en práctica! Es una práctica usual que cuando estudiemos los gastos o precios, realicemos ajustes por inflación, es decir, multiplicar a todas las columnas con valores monetarios por un cierto coeficiente. Sabiendo eso, escribí una función `ajustar_gastos` que tome un `DataFrame` con la misma estructura de nuestra tabla de `cruceristas` y un coeficiente, y devuelve una **nueva** tabla con todos sus gastos actualizados apropiadamente. 
