@@ -25,8 +25,10 @@ paises["population_density"] = paises["population"] / cines["area"]
 |Colombia|43593035|1141748|
 |Mexico|107449525|1964375|
 
-<!-- 
-4. ¿Hay casos en que los gastos totales no sean consistentes con la suma de los gastos detallados? Si hubiera, filtrarlos y respondé lo siguiente: ¿cuántos son?  ¿cuál es la diferencia absoluta máxima? (mostrar abs) 
--->
-
-> ¡Es tu turno! Generá la columna `total_expenses` que sea la suma de todas las columnas de gastos de nuestro `DataFrame`.
+> ¡Es tu turno! :glasses: Observá que `cruceristas` cuenta con una columna `total_expenses`, pero ¿informará realmente la cantidad total de gastos? ¿Habrá casos en que los gastos totales contenidos en ella no sean consistentes con la suma de los gastos detallados? :mag: Para averiguarlo, generá una columna `actual_total_expenses` con la suma de todos los gastos y respondé:  
+> 
+>  1. ¿En cuántas filas la diferencia entre  `actual_total_expenses` y `total_expenses` es mayor a cero?
+>  1. ¿En cuántas filas la diferencia entre  estas dos columnas es, en términos absolutos, mayor a 50USD?
+>  1. ¿Cuál es la mayor diferencia, en términos absolutos entre estas dos columnas?
+>
+> :bulb: ¿Qué conclusiones podés sacar?
