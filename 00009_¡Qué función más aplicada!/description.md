@@ -35,3 +35,12 @@ get_continent("China")
 "Asia"
 > 
 > 
+
+
+<!--
+
+5. ingreso estimado al país. 
+     1. cantidad de personas * gasto total, si no es uruguayo. de lo contrario, 0 
+     2. calcular el ingreso promedio por puerto. 
+
+-->
