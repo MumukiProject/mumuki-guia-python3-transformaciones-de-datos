@@ -25,5 +25,8 @@ paises["population_density"] = paises["population"] / cines["area"]
 |Colombia|43593035|1141748|
 |Mexico|107449525|1964375|
 
+<!-- 
+4. ¿Hay casos en que los gastos totales no sean consistentes con la suma de los gastos detallados? Si hubiera, filtrarlos y respondé lo siguiente: ¿cuántos son?  ¿cuál es la diferencia absoluta máxima? (mostrar abs) 
+-->
 
 > ¡Es tu turno! Generá la columna `total_expenses` que sea la suma de todas las columnas de gastos de nuestro `DataFrame`.
