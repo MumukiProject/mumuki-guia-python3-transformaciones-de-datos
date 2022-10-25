@@ -16,6 +16,8 @@
 paises["population_density"] = paises["population"] / cines["area"] 
 ```
 
+Con este cambio, `paises` se vería así:
+
 |country|population|area|
 |---|---|---|
 |Argentina|39921833|2780400|
@@ -25,10 +27,6 @@ paises["population_density"] = paises["population"] / cines["area"]
 |Colombia|43593035|1141748|
 |Mexico|107449525|1964375|
 
-> ¡Es tu turno! :glasses: Observá que `cruceristas` cuenta con una columna `total_expenses`, pero ¿informará realmente la cantidad total de gastos? ¿Habrá casos en que los gastos totales contenidos en ella no sean consistentes con la suma de los gastos detallados? :mag: Para averiguarlo, generá una columna `actual_total_expenses` con la suma de todos los gastos y respondé:  
+> ¡Es tu turno! :glasses: Observá que `cruceristas` cuenta con una columna `total_expenses`, pero ¿informará realmente la cantidad total de gastos? ¿Habrá casos en que los gastos totales contenidos en ella no sean consistentes con la suma de los gastos detallados? :mag: 
 > 
->  1. ¿En cuántas filas la diferencia entre  `actual_total_expenses` y `total_expenses` es mayor a cero?
->  1. ¿En cuántas filas la diferencia entre  estas dos columnas es, en términos absolutos, mayor a 50USD?
->  1. ¿Cuál es la mayor diferencia, en términos absolutos entre estas dos columnas?
->
-> :bulb: ¿Qué conclusiones podés sacar?
+> :bulb: Para averiguarlo, generá una columna `actual_total_expenses` con la suma de todos los gastos y respondé las siguientes preguntas. ¿Qué conclusiones podés sacar?
