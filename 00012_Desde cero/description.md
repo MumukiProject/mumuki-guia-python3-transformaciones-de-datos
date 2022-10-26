@@ -34,7 +34,7 @@ Que nos permite comparar fácilmente la cantidad de pantallas de cines privados 
 > |III|30|10|
 > |(...)|
 > 
-> Luego contestá las siguientes preguntas:
+> Luego, contestá las preguntas a continuación. 
 
 
 <style>
