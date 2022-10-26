@@ -1,18 +1,26 @@
 <div class="form-horizontal">
   <fieldset>
-    <label for="services">¿Cuántas filas tiene el nuevo `DataFrame`?</label>
-    <input type="number" min="0" step="1" name="services" class="form-control mu-free-form-input mu-inline-input">
+    <label for="count">¿En cuántas regiones se instalaron antenas en estas décadas?</label>
+    <input type="number" min="0" step="1" name="count" class="form-control mu-free-form-input mu-inline-input">
   </fieldset>
   <fieldset>
-    <label for="dropna">¿Cuál es el año en que más empresas se abrieron de software y hardware?</label>
-    <input type="number" min="0" step="1" name="dropna" class="form-control mu-free-form-input mu-inline-input">
+    <label for="missings">¿En cuántas regiones se instalaron antenas en los 2000 pero no en los 2010?</label>
+    <input type="number" min="0" step="1" name="missings" class="form-control mu-free-form-input mu-inline-input">
   </fieldset>  
   <fieldset>
-    <label for="total">¿En cuántos años no se abrieron empresas de hardware pero sí de software?</label>
-    <input type="number" min="0" step="1" name="total" class="form-control mu-free-form-input mu-inline-input">
+    <label for="top_decade">¿En cual de las dos décadas se instalaron más antenas? ¿2000 o 2010?</label>
+    <input type="number" min="0" step="1" name="top_decade" class="form-control mu-free-form-input mu-inline-input">
+  </fieldset>  
+  <fieldset>
+    <label for="less_antennas">¿En cuál región se instalaron menos antenas a los largo de estas dos décadas?</label>
+    <input type="number" min="0" step="1" name="less_antennas" class="form-control mu-free-form-input mu-inline-input">
+  </fieldset>  
+  <fieldset>
+    <label for="most_2010_antennas">¿En cuál región se instalaron más antenas en la década de 2010?</label>
+    <input type="number" min="0" step="1" name="most_2010_antennas" class="form-control mu-free-form-input mu-inline-input">
   </fieldset>    
   <fieldset>
-    <label for="total">¿Cuántas empresas de software se abrieron en total en esos años?</label>
-    <input type="number" min="0" step="1" name="total" class="form-control mu-free-form-input mu-inline-input">
-  </fieldset>      
+    <label for="variation">Comparada con la década del 2000, ¿cuál región tuvo la mayor variación porcentual en la cantidad de instalaciones de antenas en la década de 2010?</label>
+    <input type="number" min="0" step="1" name="variation" class="form-control mu-free-form-input mu-inline-input">
+  </fieldset>    
 </div>
