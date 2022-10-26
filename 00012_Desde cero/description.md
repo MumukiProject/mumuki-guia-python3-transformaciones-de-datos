@@ -1,15 +1,16 @@
-A lo largo de esta lección ya modificamos muchos `DataFrame`s ¡pero aún no creamos uno desde cero! Para hacerlo, escribiremos `pd.DataFrame()` y luego le iremos agregando las columnas que queremos. Por ejemplo, con el siguiente código:
+A lo largo de esta lección ya modificamos muchos `DataFrame`s ¡pero aún no creamos uno desde cero! Para hacerlo, escribiremos `pd.DataFrame()` y luego le iremos agregando las columnas que queremos. Por ejemplo, con el siguiente código...
 
 ```python
 publicos = cines[cines["sector"] == "Público"]
 privados = cines[cines["sector"] == "Privado"]
+
 privados_vs_publicos = pd.DataFrame()
 privados_vs_publicos["privados"] = pd.value_counts(privados.screens)
 privados_vs_publicos["publicos"] = pd.value_counts(publicos.screens)
 privados_vs_publicos
 ```
 
-Obtendríamos un `DataFrame` de este estilo:
+...obtendríamos un `DataFrame` de este estilo:
 
 ||privados|públicos|
 ---|---|---|
