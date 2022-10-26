@@ -26,4 +26,4 @@ dtype: object
 dtype: int64 # notá el cambio en esta línea 
 ```
 
-> 🧪 ¡Hora de hacer experimentos! Realizá en tu cuaderno las pruebas que necesites y respondé las siguientes preguntas sobre `to_numeric` 
+> 🧪 ¡Hora de hacer experimentos! Realizá en tu cuaderno las pruebas que necesites y seleccioná las afirmaciones verdaderas:
