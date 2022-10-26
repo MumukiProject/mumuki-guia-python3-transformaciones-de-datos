@@ -27,6 +27,6 @@ Con este cambio, `paises` se vería así:
 |Colombia|43593035|1141748|
 |Mexico|107449525|1964375|
 
-> ¡Es tu turno! :mag: Observá que `cruceristas` cuenta con una columna `total_expenses`, pero ¿informará realmente la cantidad total de gastos? ¿Habrá casos en que los gastos totales contenidos en ella no sean consistentes con la suma de los gastos detallados?  
+> :mag: Observá que `cruceristas` cuenta con una columna `total_expenses`, pero ¿informará realmente la cantidad total de gastos? ¿Habrá casos en que los gastos totales contenidos en ella no sean consistentes con la suma de los gastos detallados?  
 > 
 > :bulb: Para averiguarlo, generá una columna `actual_total_expenses` con la suma de todos los gastos y respondé las siguientes preguntas. ¿Qué conclusiones podés sacar?
