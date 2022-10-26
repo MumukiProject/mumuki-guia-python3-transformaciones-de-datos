@@ -29,12 +29,12 @@ choices:
     fallará con un `ValueError`
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`pd.to_numeric(numeros_tramposos) * 2 ` devuelve un `Series` con los valores
-    `8`, `18` y `16`"
-  checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: '`numeros_tramposos` + `numeros_tramposos` devuelve un `Series` con los valores
     `"44"`, `"99"` y `"88"`'
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`pd.to_numeric(numeros_tramposos) * 2 ` devuelve un `Series` con los valores
+    `8`, `18` y `16`"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`to_numeric` modifica el `Series` original"
