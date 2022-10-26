@@ -22,25 +22,10 @@ Dani|08/03/1991|1990|
 Umi|05/11/1982|1980|
 Feli|04/06/1957|1950|
 
-¡Pongámoslo a prueba!
 
-
-> Utilizando `apply` y la función `get_continent` crea una columna `continent`. La función `get_continent` ya la definimos por vos y retorna un continente a partir de un país:
+> ¡Tu turno! Queremos estimar cuánto dinero se ingresó al país a través de cruceristas procedentes del extranjero. El mismo lo calcularemos como: 
 >
->```python
-get_continent("Brasil")
-"América"
->
-get_continent("China")
-"Asia"
+>  * 0, para cruceristas provenientes de Uruguay
+>  * la cantidad de personas en el grupo de cada crucerista (`total_people`), multiplicado por el gasto total (`total_expenses`), en cualquier otro caso
 > 
-> 
-
-
-<!--
-
-5. ingreso estimado al país. 
-     1. cantidad de personas * gasto total, si no es uruguayo. de lo contrario, 0 
-     2. calcular el ingreso promedio por puerto. 
-
--->
+> Agregá a `cruceristas` una columna `estimated_foreing_income` con esta estimación.
