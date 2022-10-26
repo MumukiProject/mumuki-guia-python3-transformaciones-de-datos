@@ -1,16 +1,32 @@
-- name: 'Segunda localidad con más pantallas totales'
+- name: '¿En cuántas regiones se instalaron antenas en estas décadas?'
   keys:
-    sndscreens:
-      match: "[Cc][óo]rdoba"
-- name: 'Segunda localidad con más pantallas totales'
+    count:
+      equal: 15
+- name: '¿En cuántas regiones se instalaron antenas en los 2000 pero no en los 2010?'
   keys:
-    larger:
-      equal: 
-        expected: San Isidro
-        ignore_case: true
-        ignore_whitespace: true
-- name: 'Número de cines en Santa Fe en planta altas'
+    missings:
+      equal: 0   
+- name: '¿En cual de las dos décadas se instalaron más antenas? ¿2000 o 2010?'
   keys:
-    hfloor:
-      equal: 1
-                        
+    top_decade:
+      equal: 2000         
+- name: '¿En cuál región se instalaron menos antenas a los largo de estas dos décadas?'
+  keys:
+    less_antennas:
+      equal: XI
+      ignore_case: true
+- name: '¿En cuál región se instalaron más antenas en la década de 2010?'
+  keys:
+    most_2010_antennas:
+      equal: RM
+      ignore_case: true      
+- name: 'Comparada con la década del 2000, ¿en cuál región la taza de instalación de antenas en los 2010 cayó mas?'
+  keys:
+    down:
+      equal: RM
+      ignore_case: true      
+- name: 'Comparada con la década del 2000, ¿en cuál región la taza de instalación de antenas en los 2010 cayó mas?'
+  keys:
+    down:
+      equal: RM
+      ignore_case: true      
