@@ -3,7 +3,7 @@ Además de crear y modificar columnas en base a mapeos y cálculos, es frecuente
   * por un lado, los formatos en que se distribuyen los lotes de datos a veces son muy limitados. Por ejemplo, los CSVs sólo soportan strings y números; :sweat: 
   * por otro lado, las personas cometemos errores y terminamos almacenando la información de manera incorrecta. :stuck_out_tongue_closed_eyes:
 
-Ya sea por uno u otro motivo, deberemos hacer conversiones. `pandas` no se queda atrás y en respuesta a este problema nos provee funciones como `to_numeric` que transforma un string de un número en... ¡un número!
+Ya sea por uno u otro motivo, deberemos hacer conversiones. `pandas` no se queda atrás y en respuesta a este problema nos provee funciones como `to_numeric` que transforma un string numérico en... ¡un número!
 
 ```python
 ム pd.to_numeric("97")
