@@ -9,4 +9,4 @@
 - name: 'Mayor diferencia'
   keys:
     maxDelta:
-      equal: 20000
+      match: "^20000(.0)?$"
