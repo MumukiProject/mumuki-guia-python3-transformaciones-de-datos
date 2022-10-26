@@ -13,7 +13,7 @@
 - name: '¿En cuál región se instalaron menos antenas a los largo de estas dos décadas?'
   keys:
     less_antennas:
-      equal: XI
+      match: '^XI|Ays[eé]n$'
       ignore_case: true
 - name: '¿En cuál región se instalaron más antenas en la década de 2010?'
   keys:
