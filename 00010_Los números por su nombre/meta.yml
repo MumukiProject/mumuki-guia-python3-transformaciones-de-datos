@@ -2,10 +2,20 @@
 locale: es
 tags: []
 layout: input_bottom
-editor: external
+editor: multiple_choice
 type: problem
 extra_visible: false
+language: text
 teacher_info: ''
 manual_evaluation: false
-choices: []
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: No hay columnas que necesiten transformación en `cruceristas`
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Si aplicamos `to_numeric` en una columna numérica, fallará
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Si aplicamos `to_numeric` en una columna numérica, no tendrá efecto
+  checked: true
 name: Los números por su nombre
