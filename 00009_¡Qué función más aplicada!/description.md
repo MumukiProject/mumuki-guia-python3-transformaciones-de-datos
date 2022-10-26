@@ -28,4 +28,4 @@ Feli|04/06/1957|1950|
 >  * 0, para cruceristas provenientes de Uruguay
 >  * la cantidad de personas en el grupo de cada crucerista (`total_people`), multiplicado por el gasto total (`total_expenses`), en cualquier otro caso
 > 
-> Agregá a `cruceristas` una columna `estimated_foreing_income` con esta estimación.
+> Agregá a `cruceristas` una columna `estimated_foreign_income` con esta estimación.
