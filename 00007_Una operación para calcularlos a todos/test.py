@@ -19,7 +19,7 @@ class Test(unittest.TestCase):
         'transport_expenses': 10.0,
         'shopping_expenses': 3.0,
         'other_expenses': 0.0}])
-    self.assertTrue(ajustar_gastos(original) is not original, "no debería devolver el mismo dataframe, sino una copia")    
+    self.assertTrue(ajustar_gastos(original, 1) is not original, "no debería devolver el mismo dataframe, sino una copia")    
 
   def test_ajustar_gastos_con_1_devuelve_una_copia_identica_del_dataframe(self):
     original = pd.DataFrame([{
@@ -38,5 +38,5 @@ class Test(unittest.TestCase):
         'transport_expenses': 10.0,
         'shopping_expenses': 3.0,
         'other_expenses': 0.0}])
-    self.assertEquals(ajustar_gastos(original), original)
+    self.assertEquals(ajustar_gastos(original, 1), original)
         
