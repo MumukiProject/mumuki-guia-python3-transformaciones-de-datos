@@ -38,5 +38,5 @@ class Test(unittest.TestCase):
         'transport_expenses': 10.0,
         'shopping_expenses': 3.0,
         'other_expenses': 0.0}])
-    self.assertEquals(ajustar_gastos(original, 1), original)
+    self.assertEquals(ajustar_gastos(original, 1).to_dict(), original.to_dict())
         
