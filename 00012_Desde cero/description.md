@@ -38,7 +38,9 @@ Que nos permite comparar fácilmente la cantidad de pantallas de cines privados 
 
 
 <style>
-
+#hint-section .table {
+  width: fit-content; 
+}
 blockquote .table {
   background: white;
   border-radius: 5px;
