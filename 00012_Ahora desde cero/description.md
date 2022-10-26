@@ -1,4 +1,4 @@
-A lo largo de esta lección ya modificamos muchos `DataFrame`s ¡pero aún no creamos uno desde cero! Para eso, escribiremos `pd.DataFrame()`` y luego le iremos agregando las columnas que queremos. 
+A lo largo de esta lección ya modificamos muchos `DataFrame`s ¡pero aún no creamos uno desde cero! Para hacerlo, escribiremos `pd.DataFrame()` y luego le iremos agregando las columnas que queremos. 
 
 Por ejemplo, con el siguiente código:
 
