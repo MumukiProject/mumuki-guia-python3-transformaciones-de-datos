@@ -17,7 +17,7 @@
 - name: '¿En cuál región se instalaron más antenas en la década de 2010?'
   keys:
     most_2010_antennas:
-      equal: RM
+      equal: ^rm|RM|xiii|XIII|[Mm]etropolitana$
       ignore_case: true      
 - name: 'Comparada con la década del 2000, ¿en cuál región la taza de instalación de antenas en los 2010 cayó mas?'
   keys:
