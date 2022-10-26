@@ -10,7 +10,7 @@ class Test(unittest.TestCase):
     self.assertEquals(cruceristas.set_index("cruise_id").loc[7404, "estimated_foreign_income"], 224.76, "crucerista 7404 debería tener estimated_foreign_income en 224.76")
     
   def test_cruceristas_de_otro_pais_de_asia_tienen_ingreso_estimado_no_cero(self):
-    self.assertEquals(round(cruceristas.set_index("cruise_id").loc[7638, "estimated_foreign_income"]), 125, "crucerista 7638 debería tener estimated_foreign_income en 125 aproximadamente")
+    self.assertEquals(int(cruceristas.set_index("cruise_id").loc[7638, "estimated_foreign_income"]), 125, "crucerista 7638 debería tener estimated_foreign_income en 125 aproximadamente")
     
         
     7638
