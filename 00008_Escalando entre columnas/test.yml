@@ -5,8 +5,8 @@
 - name: 'Filas con diferencia mayor a 50'
   keys:
     countGt50:
-      equal: 178
+      equal: 108
 - name: 'Mayor diferencia'
   keys:
     maxDelta:
-      equal: 68
+      equal: 20000
