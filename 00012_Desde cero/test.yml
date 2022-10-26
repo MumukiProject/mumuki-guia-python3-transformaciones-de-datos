@@ -25,8 +25,8 @@
     down:
       equal: RM
       ignore_case: true      
-- name: 'Comparada con la década del 2000, ¿en cuál región la taza de instalación de antenas en los 2010 cayó mas?'
+- name: 'Comparada con la década del 2000, ¿en cuál región la taza de instalación de antenas en los 2010 se mantuvo más alta?'
   keys:
-    down:
+    up:
       equal: RM
       ignore_case: true      
