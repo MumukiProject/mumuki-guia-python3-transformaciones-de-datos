@@ -5,11 +5,11 @@ En ocasiones nos toparemos con transformaciones más complejas, que no podremos 
 tabla.apply(funcion_que_transforma_una_fila_completa, axis="columns")
 ```
 
-¡Eso nos va a permitir generar columnas más interesantes de forma más sencilla! Por ejemplo, si en el ejercicio anterior hubieramos contado con una función que nos calculara directamente los gastos totales...
+¡Eso nos va a permitir generar columnas más interesantes de forma más sencilla! :open_mouth: Por ejemplo, si en el ejercicio anterior hubieramos contado con una función que nos calculara directamente los gastos totales...
 
 ```python
 # notá que un_crucerista no es un DataFrame, 
-# sino un simil-diccionario que representa 
+# sino un símil-diccionario que representa 
 # una fila
 def calcular_gastos_totales(un_crucerista):
   return (
