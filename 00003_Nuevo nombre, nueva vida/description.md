@@ -25,6 +25,6 @@ Ricardo Guiraldes|60|Rua das pedras 1000|Brazil|
 Billy Summers|42|5th Avenue 2332|USA|
 Anna Prado|37|San Martin 1165|Argentina|
 
-Para que esta operación tenga efecto en el `DataFrame` original deberíamos escribir… ¡exacto, `inplace=True`!
+De esta forma, resulta un poco más claro que las columnas representan nombre completo, edad, dirección y país, respectivamente. Para que esta operación tenga efecto en el `DataFrame` original deberíamos escribir... ¡exacto, `inplace=True`!
 
 > ¡Ahora te toca a vos!  Renombrá en el `DataFrame` en tu cuaderno  las columnas `loc_code`, `prov_id` y `dep_id` por `city_id`, `province_id` y `department_id` respectivamente.
