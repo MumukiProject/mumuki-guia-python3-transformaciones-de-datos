@@ -10,7 +10,7 @@ tabla.apply(funcion_que_transforma_una_fila_completa, axis="columns")
 ```python
 # notá que un_crucerista no es un DataFrame, 
 # sino un símil-diccionario que representa 
-# una fila
+# una linha
 def calcular_gastos_totales(un_crucerista):
   return (
       un_crucerista['tours_expenses'] +
