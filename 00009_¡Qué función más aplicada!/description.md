@@ -1,4 +1,4 @@
-En ocasiones nos toparemos con transformaciones más complejas, que no podremos resolver simplemente con operaciones entre escalares y columnas :slight_frown:. Para esos casos, contamos con `apply`, que permite aplicar una función a cada fila de nuestra tabla, y retornar un nuevo `Series` con los resultados: 
+En ocasiones nos toparemos con transformaciones más complejas, que no podremos resolver simplemente con operaciones entre escalares y columnas :slight_frown:. Para esos casos, contamos con `apply`, que permite aplicar una función a cada fila de nuestra tabla y obtener un nuevo `Series` con los resultados: 
 
 ```python
 # al usar apply de esta forma, siempre debemos pasar el argumento axis="columns"
