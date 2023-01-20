@@ -17,7 +17,7 @@ Es importante tener en cuenta que esta opción transforma nuestros datos a `int`
 ValueError: invalid literal for int() with base 10: '1.9'
 ```
 
-Sin embargo, si fueran verdaderos números enteros, `astype(int)` nos servirá para truncarlos:
+Sin embargo, si fueran verdaderos números enteros, `astype(int)` nos serviría para truncarlos:
 
 ```python
 ム  pd.Series([12.76, 45.2, 101]).astype(int)
