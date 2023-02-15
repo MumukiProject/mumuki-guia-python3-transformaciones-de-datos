@@ -11,7 +11,7 @@ Ahora nuestras fechas son efectivamente fechas. La ventaja de trabajar con el ti
 12014    2020
 12015    2020
 
-ム cruceros["date"].dt.month
+ムcruceros["date"].dt.month
 0        12
 1        12
 2        12

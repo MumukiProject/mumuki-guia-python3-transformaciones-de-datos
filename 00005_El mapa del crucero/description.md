@@ -9,7 +9,7 @@ Cuando hacemos ésto, si la columna no existe ya, será creada, y en caso contra
 Una forma consiste en usar`map` 🗺️, que nos permitirá transformar valores en base a un diccionario. Si por ejemplo quisiéramos categorizar de forma más sencilla los `cines` públicos, privados y comunitarios en una nueva columna `sector_type`, podríamos hacer esto:
 
 ```python
-ム cines["sector"]
+ムcines["sector"]
 0          Privado comercial
 1          Privado comercial
 2          Privado comercial
@@ -22,7 +22,7 @@ Una forma consiste en usar`map` 🗺️, que nos permitirá transformar valores 
 327        Público municipal
 328    Privado independiente
 
-ム cines["sector_type"] = cines["sector"].map({
+ムcines["sector_type"] = cines["sector"].map({
     "Público municipal": "Público", 
     "Público provincial": "Público", 
     "Público nacional": "Público", 
@@ -30,7 +30,7 @@ Una forma consiste en usar`map` 🗺️, que nos permitirá transformar valores 
     "Otros": "Comunitarios e Independientes",
     "Privado independiente": "Comunitarios e Independientes",
     "Privado comunitario": "Comunitarios e Independientes"})
-ム cines["sector_type"]
+ムcines["sector_type"]
 0                            Privado
 1                            Privado
 2                            Privado
@@ -47,14 +47,14 @@ Una forma consiste en usar`map` 🗺️, que nos permitirá transformar valores 
 En caso que no hayamos contemplado algún valor de entrada tendremos `nan` en la columna. Por ejemplo, si hubiéramos omitido `"Público municipal"` en nuestro `map`, el `sector_type` hubiera quedado como `nan` en las filas correspondientes a ese sector.: 
 
 ```python
-ム cines["sector_type"] = cines["sector"].map({
+ムcines["sector_type"] = cines["sector"].map({
     "Público provincial": "Público",
     "Público nacional": "Público",
     "Privado comercial": "Privado",
     "Otros": "Comunitarios e Independientes",
     "Privado independiente": "Comunitarios e Independientes",
     "Privado comunitario": "Comunitarios e Independientes"})
-ム cines["sector_type"]
+ムcines["sector_type"]
 0                            Privado
 1                            Privado
 2                            Privado

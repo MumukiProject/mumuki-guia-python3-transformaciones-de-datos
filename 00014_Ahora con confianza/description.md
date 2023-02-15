@@ -1,7 +1,7 @@
 :ocean: De nuevo en altamar, observemos la `region` que creamos anteriormente: 
 
 ```python
-ム cruceristas["region"]
+ムcruceristas["region"]
 0        No regional
 1        No regional
 2        No regional

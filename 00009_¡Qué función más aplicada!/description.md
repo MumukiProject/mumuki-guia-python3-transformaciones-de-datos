@@ -30,7 +30,7 @@ cruceristas["actual_total_expenses"] = cruceristas.apply(calcular_gastos_totales
 ¡Y nos hubiera dado el mismo resultado! :tada:
 
 ```python
-ム cruceristas["actual_total_expenses"]
+ムcruceristas["actual_total_expenses"]
 0          0.00
 1        200.00
 2        100.00
