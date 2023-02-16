@@ -1,0 +1,2 @@
+expectation "debe declarar una función":
+  declares computation;
